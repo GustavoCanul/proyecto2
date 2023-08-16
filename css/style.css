@@ -4,6 +4,7 @@
     margin: 0;
     text-decoration: none;
     color: black;
+    font-family: sans-serif;
 }
 header{
     width: 100%;
@@ -11,15 +12,22 @@ header{
     background-color: red;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
+    padding: .5rem;
+}
+.header_logo img{
+    width: 90px;
+    margin-right: .5rem;
 }
 .header_logo{
     display: flex;
-    align-content: center;
+    align-items: center;
+    max-height: 6.5rem;
 }
 nav{
     display: flex;
     flex-direction: row;
-    gap: 1.5rem;
+    align-items: center;
+}
+nav > a{
+    margin-right: 1rem;
 }
