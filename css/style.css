@@ -63,7 +63,7 @@ nav a:hover {
 } 
 .space{
     width: 100%;
-    height: 6rem;
+    height: 4rem;
 }
 .wrapper_main{
     width: 100%;
@@ -112,6 +112,9 @@ label{
 .contianer_link_anuncio a{
     font-size: 1.5rem;
     font-weight: 500;
+}
+.contianer_link_anuncio{
+    margin-bottom: .65rem;
 }
 @media (max-width: 660px) {
     header{
